@@ -1,0 +1,24 @@
+.about-container {
+  padding-bottom: 94px;
+}
+.about__list {
+  display: flex;
+  gap: 30px;
+}
+.about__item {
+  position: relative;
+}
+.about__overlay-text {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--header-background-color);
+  background-color: rgba(47, 48, 58, 0.8);
+}

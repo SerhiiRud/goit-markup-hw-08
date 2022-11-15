@@ -1,0 +1,33 @@
+.clients__container {
+  padding-bottom: 94px;
+}
+.clients__list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.clients__item {
+  height: 92px;
+  width: calc((100% - 150px) / 6);
+}
+.clients__link {
+  width: 100%;
+  height: 100%;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--social-network-color);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: var(--transition-timing-function);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.clients__logo {
+  fill: currentColor;
+}
