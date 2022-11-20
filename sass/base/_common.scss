@@ -16,17 +16,33 @@ body {
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
+  font-size: 24px;
+  line-height: 1.17;
+
   color: var(--accent-color);
-  margin-right: 93px;
+  @include tablet {
+    margin-right: 88px;
+  }
+  @include desktop {
+    font-size: 26px;
+    line-height: 1.19;
+    margin-right: 93px;
+  }
 }
 .section {
-  padding-top: 94px;
+  padding-top: 60px;
+  @include desktop {
+    padding-top: 94px;
+  }
 }
 .section__title {
-  font-size: 36px;
-  line-height: 1.17;
+  font-size: 28px;
+  line-height: 1.18;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+  @include desktop {
+    margin-bottom: 50px;
+    font-size: 36px;
+    line-height: 1.17;
+  }
 }

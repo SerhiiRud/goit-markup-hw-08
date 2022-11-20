@@ -1,14 +1,24 @@
 .clients__container {
-  padding-bottom: 94px;
+  padding-bottom: 60px;
+  @include desktop {
+    padding-bottom: 94px;
+  }
 }
 .clients__list {
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
   justify-content: center;
 }
 .clients__item {
   height: 92px;
-  width: calc((100% - 150px) / 6);
+  width: calc((100% - 30px) / 2);
+  @include tablet {
+    @include calc(3, 30px);
+  }
+  @include desktop {
+    @include calc(6, 30px);
+  }
 }
 .clients__link {
   width: 100%;
