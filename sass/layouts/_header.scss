@@ -241,6 +241,6 @@
   letter-spacing: 0.02em;
   color: var(--accent-color);
 }
-.mob-soc-link:not(:last-child)::after {
-  content: '|';
-}
+// .mob-soc-item:not(:last-child)::after {
+//   content: '|';
+// }
