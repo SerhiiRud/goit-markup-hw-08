@@ -36,3 +36,9 @@
     @include calc(4, 30px);
   }
 }
+.features {
+  padding-bottom: 60px;
+  @include desktop {
+    padding-bottom: 94px;
+  }
+}

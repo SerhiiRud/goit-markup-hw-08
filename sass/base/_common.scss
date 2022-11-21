@@ -21,18 +21,16 @@ body {
 
   color: var(--accent-color);
   @include tablet {
-    margin-right: 88px;
   }
   @include desktop {
     font-size: 26px;
     line-height: 1.19;
-    margin-right: 93px;
   }
 }
 .section {
-  padding-top: 60px;
+  padding-bottom: 60px;
   @include desktop {
-    padding-top: 94px;
+    padding-bottom: 94px;
   }
 }
 .section__title {

@@ -1,12 +1,12 @@
 .team {
   background-color: var(--sec-background-color);
-}
-.team-container {
-  padding-bottom: 60px;
+  padding-top: 60px;
+
   @include desktop {
-    padding-bottom: 94px;
+    padding-top: 94px;
   }
 }
+
 .team__list {
   display: flex;
   flex-wrap: wrap;

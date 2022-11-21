@@ -1,7 +1,7 @@
-.clients__container {
-  padding-bottom: 60px;
+.clients {
+  padding-top: 60px;
   @include desktop {
-    padding-bottom: 94px;
+    padding-top: 94px;
   }
 }
 .clients__list {

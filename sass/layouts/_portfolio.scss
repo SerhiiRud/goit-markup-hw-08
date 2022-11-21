@@ -1,3 +1,9 @@
+.portfolio {
+  padding-top: 60px;
+  @include desktop {
+    padding-top: 94px;
+  }
+}
 .button-list__button {
   padding: 6px 22px;
   font-family: inherit;
@@ -29,6 +35,7 @@
   flex-wrap: wrap;
   justify-content: flex-start;
   gap: 8px;
+  row-gap: 15px;
   margin-bottom: 40px;
   @include tablet {
     justify-content: center;
@@ -91,12 +98,7 @@
   color: var(--sec-text-color);
   background-color: var(--header-background-color);
 }
-.portfolio-container {
-  padding-bottom: 60px;
-  @include desktop {
-    padding-bottom: 94px;
-  }
-}
+
 .portfolio__overlay {
   position: relative;
   overflow: hidden;
