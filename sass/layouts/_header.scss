@@ -241,6 +241,12 @@
   letter-spacing: 0.02em;
   color: var(--accent-color);
 }
-// .mob-soc-item:not(:last-child)::after {
-//   content: '|';
-// }
+.mob-soc-item {
+  position: relative;
+}
+.mob-soc-item:not(:last-child)::after {
+  color: var(--accent-color);
+  content: '|';
+  position: absolute;
+  transform: translate(8px, 2px);
+}
